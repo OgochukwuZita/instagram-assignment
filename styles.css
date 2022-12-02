@@ -1,0 +1,9 @@
+body {
+    padding: 25px;
+    margin: 35px;
+}
+
+.nav {
+    display: flex;
+   gap: 2%;
+}
