@@ -1,9 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
 body {
     padding: 25px;
-    margin: 35px;
-}
+    margin: 35px 5px;
+   }
 
 .nav {
     display: flex;
-   gap: 2%;
+    gap: 2%;
+    margin-top: 35px;
+    }
+
+ .profile {
+    border: 1px solid white;
+    border-radius: 40px;
+ }
+ .nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+    
+ }
+
+ aside{
+    
+   border-right: 1px solid rgba(219, 219, 219, 1);
+  line-height: 100%;
+  position: relative;
+
+
+ }
+ .logo {
+    margin-bottom: 5%;
+ }
+ .more {
+    display: flex;
+    gap: 2%;
+    margin-top: 35px;
+    margin-top: 8%;
+ }
+ .more a {
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+ }
+ .stories{
+    display: flex;
+    justify-content: center;
+   gap: 3px;
+   border: 1px solid rgba(219, 219, 219, 1);
+   padding: 15px 5px;
+   width: 40%;
+   border-radius: 15px;
+   margin-left: 25%;
+   position: relative;
+   bottom: 715px;
+ }
+ .stories a img {
+    border: 1px solid;
+    outline: none;
+    border-radius: 50%;
+ }
+ .stories span a {
+    text-decoration: none;
+ }
+ .stories span p {
+    font-weight: lighter;
+ }
+ button {
+    width: 8%;
+    border-radius: 35px;
+   background-color: white;
+   padding: 10px;
+   font-weight: bold;
+   outline: white;
+   margin-left: 50%;
+  
+    
+
 }
